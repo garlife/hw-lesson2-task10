@@ -12,6 +12,7 @@ import { Comp7Component } from './comp7/comp7.component';
 import { Comp8Component } from './comp8/comp8.component';
 import { Comp9Component } from './comp9/comp9.component';
 import { Comp10Component } from './comp10/comp10.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { Comp10Component } from './comp10/comp10.component';
     Comp10Component
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
